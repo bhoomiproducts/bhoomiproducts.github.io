@@ -343,15 +343,20 @@ ul.about-list li span{
 	background-attachment: fixed;
 }
 
-#clients .item{
-    padding: 0;
-    margin: 35px;
-    color: #FFF;
-	text-align: center;
-	max-height:125px;max-width: 125px;
-}
 
-#clients .item img{max-width:100%}
+/*client grid */
+.client-wrapper {	
+	display: flex;
+	flex-wrap: wrap;
+	border-right:2px solid #53BA0A;align-items: center;
+  }
+  .client-wrapper > div {
+	flex: 1 1 100px;
+	margin:1em 0;
+	
+  }
+
+  .client-wrapper div img{width:75px}
 
 /* Gallery Section 
 ==============================*/
@@ -834,4 +839,4 @@ table tr th{text-align:center}
 }
 
 .lead-text{width:70%;display:flex; align-self:center;flex-flow:column}
-.lead-text strong{font-size:calc(40px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000}
+.lead-text strong{font-size:calc(30px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000}
