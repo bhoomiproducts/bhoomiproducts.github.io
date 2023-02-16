@@ -128,14 +128,17 @@ font-weight: 900;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #cfcfcf;
+	color: #cfcfcf;backdrop-filter: blur(2px);
 }
 
-#tf-home .overlay{	
-	
+#tf-home .overlay{		
 	background-attachment: fixed;
 	height:750px;	
+	backdrop-filter:blur(2px);
 }
+
+
+
 #tf-home p.lead{
 	color: #e3e3e3;
 }
