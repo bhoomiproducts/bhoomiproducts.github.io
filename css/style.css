@@ -122,19 +122,20 @@ font-weight: 900;
 	background-color: #FFF;
 	}
 /* Home Style */
-#tf-home{
-	background: url(../img/01.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+#tf-home{	
+	background:transparent url(../img/Biomass-heap.jpeg);
+	background-size: 100% auto;
+	background-position:bottom center;
+	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
-	color: #cfcfcf;backdrop-filter: blur(2px);
+	color: #cfcfcf;
+	/* backdrop-filter: blur(2px); */
 }
 
 #tf-home .overlay{		
 	background-attachment: fixed;
 	height:750px;	
-	backdrop-filter:blur(2px);
+	/* backdrop-filter:blur(2px); */
 }
 
 
@@ -343,6 +344,7 @@ ul.about-list li span{
 ==============================*/
 #tf-product, #tf-usage{
 	padding: 80px 0; 
+	
 }
 
 .categories{ 
@@ -647,7 +649,7 @@ display:flex;justify-content: center;align-items: center;}
 .usage p{
     text-align:center;
 	line-height:1.2;
-	font-size:12px;
+	font-size:14px;
 	width:150px;
 	position:absolute;
 }
@@ -811,9 +813,18 @@ table tr th{text-align:center}
 .about-title {
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 20px 0 10px 0;
 }
 
-.lead-text{width:70%;display:flex; align-self:center;flex-flow:column}
-.lead-text strong{font-size:calc(30px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000}
+.lead-text{width:70%;display:flex; align-self:center;flex-flow:column;margin-top: -5%;}
+.lead-text strong{font-size:calc(20px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000}
+/* .lead-text strong{font-size:calc(30px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000} */
+.companyName h2{line-height: 2em !important; font-weight: 700; font-size:calc(10px + 30*(100vw - 811px)/589);text-shadow: 1px 2px 2px #000}
+.bhoomi-green{color:#67c444;}
+
+
+.color-pick-target{
+	position: absolute;top: 0;bottom: 0;left: 0;right: 0; width: 100%;
+	opacity:6;background: linear-gradient(to bottom, rgba(123,156,25,1) 0%, rgba(73,101,0,1) 50%, rgba(61, 61, 0, 0.1) 77%, rgba(61, 61, 0, 0) 90%);
+}
